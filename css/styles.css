@@ -518,7 +518,7 @@ background-color: var(--button-hover);
 
 .slogan-div {
     display: flex;
-            align-items: baseline;
+    align-items: baseline;
 }
 
 .slogan-logo {
