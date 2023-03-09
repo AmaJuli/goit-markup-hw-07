@@ -503,7 +503,7 @@ background-color: var(--button-hover);
 .customers-link:hover,
 .customers-link:focus {
     color: var(--button-hover);
-    border-color: var(--butt);
+    border-color: var(--button-hover);
 }
 
 .customers-logo {
