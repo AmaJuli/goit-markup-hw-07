@@ -279,8 +279,8 @@ img {
 
 .header-soc-list {
     display: flex;
-    gap: 56px;
-    width: 328px;
+    gap: 24px;
+    width: 285px;
     margin: 0 auto;
 }
 
