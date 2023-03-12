@@ -469,7 +469,7 @@ padding-bottom: 28px;
 
 .hero {
     padding-top: 112px;
-    padding-bottom: 89px;
+    padding-bottom: 112px;
     margin: 0 auto;
     text-align: center;
     background-image: linear-gradient(to right,
@@ -969,6 +969,10 @@ flex-basis: calc(((100% - 48px) / 3));
         padding-left: 93px;
     }
 
+    .hero {
+        max-width: 1440px;
+        
+    }
     .slogan-div {
         flex-direction: row;
         flex-wrap: wrap;
@@ -1253,6 +1257,10 @@ flex-basis: calc(((100% - 48px) / 3));
     .modal {
         width: 408px;
     }
+    .hero {
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
 }
 
 @media screen and (min-width: 428px) and (max-width: 767px) {
@@ -1297,5 +1305,17 @@ flex-basis: calc(((100% - 48px) / 3));
     .footer-form {
         flex-direction: column;
     }
+    .modal-window {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        height: 624px;
+    }
 
+}
+
+@media screen and (min-width: 769px) {
+    .hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
 }
